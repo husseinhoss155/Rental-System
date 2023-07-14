@@ -1,0 +1,103 @@
+body {
+    padding: 7px;
+    margin: 7px;
+background-image: url("public/img/background.jpg");
+    background-size: cover;
+    font-size: large;
+}
+
+div{
+    border: 2px solid rebeccapurple;
+    padding: 7px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#loginbutton{
+    font-family:bold ;
+    font-size: large;
+    margin: 7px;
+    padding: 7px;
+    text-align: center;
+    width: 90px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+#regbutton{
+    font-family:bold ;
+    font-size: large;
+    margin: 15px;
+    padding: 7px;
+    width: 90px;
+    margin-left: 150px;
+}
+.login{
+    width: 300px;
+    padding: 7px;
+    margin: 7px;
+    margin-left: 90px;
+}
+.register{
+    width: 360px;
+}
+label{
+    font-family: Arial;
+    padding: 3px;
+}
+#ps_lg_err{
+color: blue;
+}
+#em_lg_err{
+color: blue;
+}
+#lg_err{
+    color: blue;
+    margin-left: 60px;
+}
+#reg_err{
+    color: blue;
+    margin-left: 110px;
+    visibility: unset;
+}
+#em_err{
+    color: blue;
+}
+#name_err{
+    color: blue;
+}
+#ps_err{
+    color: blue;
+}
+#cps_err{
+    color: blue;
+}
+#loginform{
+    position: relative;
+    margin-top: 220px;
+    margin-left: 550px;
+    width: 500px;
+    vertical-align: middle;
+    background-color: darkgrey;
+}
+#regform{
+    margin-top: 35px;
+    margin-left: 550px;
+    width: 400px;
+    vertical-align: middle;
+    background-color: darkgrey;
+}
+#welcomeform{
+    text-align: center;
+    font-size: 160%;
+    position: relative;
+    margin-top: 300px;
+    margin-left: 550px;
+    width: 500px;
+    vertical-align: middle;
+    background-color: darkgrey;
+}
+p{
+    color: white;
+}
